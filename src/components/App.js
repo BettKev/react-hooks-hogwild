@@ -7,7 +7,10 @@ function App() {
 	return (
 		<div className="App">
 			<Nav />
-			<div className="hog-container">
+			<div className="navWrapper">
+				<h1 className="headerText largeHeader">Welcome to the Pigpen!</h1>
+			</div>
+			<div className="hog-container indexWrapper">
 				{hogs.map((hog) => (
 					<HogTile key={hog.name} name={hog.name} image={hog.image} />
 				))}
