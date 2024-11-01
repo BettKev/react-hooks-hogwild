@@ -150,3 +150,23 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+/* new styling rules */
+.hog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.hog-tile {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    width: 150px;
+}
+
+.hog-tile img {
+    max-width: 100%;
+    height: auto;
+}

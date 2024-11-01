@@ -1,5 +1,5 @@
 // HogTile.js
-import React from 'react';
+import React from "react";
 
 function HogTile({ name, image }) {
     return (
