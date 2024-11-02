@@ -1,15 +1,11 @@
 // HogTile.js
 import React, { useState } from "react";
 
-function HogTile({ name, image, specialty, weight, greased, highestMedal }) {
+function HogTile({ name, image, specialty, weight, greased, highestMedal, hideHog }) {
     const [showDetails, setShowDetails] = useState(false);
 
-    const handleTileClick = () => {
-        setShowDetails((prevShowDetails) => !prevShowDetails);
-    };
-
     return (
-        <div className="pigTile minPigTile" onClick={handleTileClick}>
+        <div className="pigTile minPigTile" onClick={() => setShowDetails(!showDetails)}>
             <h3>{name}</h3>
             <img src={image} alt={name} className="TwirlyPig" />
             {showDetails && (
@@ -20,6 +16,9 @@ function HogTile({ name, image, specialty, weight, greased, highestMedal }) {
                     <p><strong>Highest Medal Achieved:</strong> {highestMedal}</p>
                 </div>
             )}
+            <button onClick={(e) => { e.stopPropagation(); hideHog(name); }}>
+                Hide
+            </button>
         </div>
     );
 }
