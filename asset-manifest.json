@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-hooks-hogwild/static/css/main.59238f29.css",
-    "main.js": "/react-hooks-hogwild/static/js/main.cf4be049.js",
+    "main.css": "/react-hooks-hogwild/static/css/main.126a0f5b.css",
+    "main.js": "/react-hooks-hogwild/static/js/main.17a07052.js",
     "static/media/brand-icons.svg": "/react-hooks-hogwild/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/react-hooks-hogwild/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/outline-icons.svg": "/react-hooks-hogwild/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
@@ -20,11 +20,11 @@
     "static/media/outline-icons.woff": "/react-hooks-hogwild/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/react-hooks-hogwild/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/react-hooks-hogwild/index.html",
-    "main.59238f29.css.map": "/react-hooks-hogwild/static/css/main.59238f29.css.map",
-    "main.cf4be049.js.map": "/react-hooks-hogwild/static/js/main.cf4be049.js.map"
+    "main.126a0f5b.css.map": "/react-hooks-hogwild/static/css/main.126a0f5b.css.map",
+    "main.17a07052.js.map": "/react-hooks-hogwild/static/js/main.17a07052.js.map"
   },
   "entrypoints": [
-    "static/css/main.59238f29.css",
-    "static/js/main.cf4be049.js"
+    "static/css/main.126a0f5b.css",
+    "static/js/main.17a07052.js"
   ]
 }
